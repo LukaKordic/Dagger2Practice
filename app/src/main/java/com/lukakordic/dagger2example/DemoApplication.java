@@ -4,6 +4,9 @@ import android.app.Application;
 import android.content.Context;
 
 import com.lukakordic.dagger2example.data.DataManager;
+import com.lukakordic.dagger2example.di.component.ApplicationComponent;
+import com.lukakordic.dagger2example.di.component.DaggerApplicationComponent;
+import com.lukakordic.dagger2example.di.module.ApplicationModule;
 
 import javax.inject.Inject;
 

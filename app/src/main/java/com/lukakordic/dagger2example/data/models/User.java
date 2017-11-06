@@ -13,13 +13,10 @@ public class User extends RealmObject {
     public User() {
     }
 
-    public User(long id, String name, String address, String createdAt, String updatedAt) {
+    public User(String name, String address) {
 
-        this.id = id;
         this.name = name;
         this.address = address;
-        this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
     }
 
     public long getId() {
